@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="search_color" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:#0dc3f4}.cls-2{fill:#0060c6}
+        </style>
+    </defs>
+    <path id="Path_91" d="M15.818 14.811L24 22.991 22.991 24l-8.176-8.187a8.979 8.979 0 1 1 1-1zM8.987 1.424a7.563 7.563 0 1 0 5.347 2.215 7.545 7.545 0 0 0-5.347-2.215z" class="cls-1" data-name="Path 91"/>
+    <path id="Path_92" d="M2.631 15.332A8.983 8.983 0 0 1 15.336 2.63l-1.009 1.009A7.559 7.559 0 1 0 3.64 14.33l-1.009 1z" class="cls-2" data-name="Path 92"/>
+</svg>

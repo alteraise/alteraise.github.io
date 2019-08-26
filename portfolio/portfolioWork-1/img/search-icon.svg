@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="search" d="M13.181 12.343L20 19.16l-.841.84-6.813-6.822a7.482 7.482 0 1 1 .835-.835zM7.489 1.186a6.3 6.3 0 1 0 4.456 1.846 6.288 6.288 0 0 0-4.456-1.846z" class="cls-1"/>
+</svg>

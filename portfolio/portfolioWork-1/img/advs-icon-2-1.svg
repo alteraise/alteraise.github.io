@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="sell" viewBox="0 0 94 90">
+    <defs>
+        <style>
+            .cls-1{fill:#0dc3f4}.cls-2{fill:#0060c6}
+        </style>
+    </defs>
+    <path id="Path_112" d="M7.875 47.281v21.263H2.24V47.281h5.635zM90.4 13.24v55.33h-5.639V13.24zm-20.641 6.415v48.889h-5.635V19.655zm-20.636 6.364V68.57h-5.636V26.019zM28.486 40.892v27.652h-5.635V40.892z" class="cls-1" data-name="Path 112" transform="translate(3.604 21.43)"/>
+    <path id="Path_113" d="M73.155 0H94v20.922h-5.635V11.1L51.37 39.436l-1.67 1.283-1.7-1.231L29.69 25.95 3.366 45.668 0 41.138l27.994-20.975 1.67-1.231 1.67 1.231 18.288 13.512 36.6-28.019H73.155z" class="cls-2" data-name="Path 113"/>
+</svg>

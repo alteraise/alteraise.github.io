@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="not_found" data-name="not found" viewBox="0 0 88 88">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:#0dc3f4}
+        </style>
+    </defs>
+    <path id="Path_153" d="M75.107 12.893A43.971 43.971 0 1 0 88 44a43.868 43.868 0 0 0-12.893-31.107zm-3.643 3.643a38.758 38.758 0 0 1 1.726 52.987L18.453 14.81a38.789 38.789 0 0 1 53.011 1.725zM16.536 71.464a38.758 38.758 0 0 1-1.726-52.987l54.737 54.737a38.759 38.759 0 0 1-53.011-1.749z" class="cls-1" data-name="Path 153"/>
+    <path id="Path_154" d="M18.36 0a44.02 44.02 0 0 1 44 44h-5.176A38.784 38.784 0 0 0 18.36 5.176V0z" class="cls-2" data-name="Path 154" transform="translate(25.64)"/>
+</svg>

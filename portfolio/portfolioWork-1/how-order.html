@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Как сделать заказ - Farma Medical</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Some SEO words">
+
+    <!-- Normalize CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Plugins CSS-->
+    <link href="css/plugins/flickity/flickity.min.css" rel="stylesheet">
+    <link href="css/plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+
+    <link href="css/fonts.min.css" rel="stylesheet">
+    <link href="css/header.min.css" rel="stylesheet">
+    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/media.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon-01.png" type="image/x-icon">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="preloader">
+      <svg xmlns="http://www.w3.org/2000/svg" id="logo" viewBox="0 0 170 62.423">
+        <defs>
+            <style>
+                .cls1-1{fill:#fff}.cls1-2{fill:#0dc3f4}
+            </style>
+        </defs>
+        <g id="Group_1" data-name="Group 1" transform="translate(64.424 8.93)">
+            <path id="Path_1" d="M30.59 21.088V4.24h12.341v3.791h-8v2.633h7.834v3.791h-7.837v6.634z" class="cls1-1" data-name="Path 1" transform="translate(-30.59 -4.24)"/>
+            <path id="Path_2" d="M49.957 21.088l-.842-2.422h-6.634l-.842 2.422H36.71L43.049 4.24H48.5l6.36 16.848zM45.808 8.536l-2.148 6.339h4.3z" class="cls1-1" data-name="Path 2" transform="translate(-23.821 -4.24)"/>
+            <path id="Path_3" d="M55.333 21.088l-2.822-5.665h-2.233v5.665H45.94V4.24h8.445c3.728 0 5.855 2.485 5.855 5.6a5.114 5.114 0 0 1-3.37 5.06l3.43 6.188zm.484-11.267a1.888 1.888 0 0 0-2.106-1.79h-3.433v3.622h3.433a1.882 1.882 0 0 0 2.106-1.832z" class="cls1-1" data-name="Path 3" transform="translate(-13.612 -4.24)"/>
+            <path id="Path_4" d="M68.633 21.077V10.126L64.358 21.1h-1.916l-4.234-10.974V21.1H53.87V4.25h6.044l3.517 9.14 3.539-9.14h6.044V21.1h-4.381z" class="cls1-1" data-name="Path 4" transform="translate(-4.841 -4.229)"/>
+            <path id="Path_5" d="M76.777 21.088l-.842-2.422H69.3l-.842 2.422H63.53L69.869 4.24h5.455l6.36 16.848zM72.628 8.536l-2.148 6.339h4.3z" class="cls1-1" data-name="Path 5" transform="translate(5.843 -4.24)"/>
+            <path id="Path_6" d="M45.149 33.088V18.22L39.02 33.088h-.548L32.3 18.22v14.868h-1.43V16.24h2.148l5.728 13.9 5.707-13.9h2.169v16.848z" class="cls1-1" data-name="Path 6" transform="translate(-30.28 9.032)"/>
+            <path id="Path_7" d="M40.34 33.088V16.24h10.678v1.306h-9.246v6.234h9.077v1.306h-9.077v6.676h9.245v1.306H40.34z" class="cls1-1" data-name="Path 7" transform="translate(-19.806 9.032)"/>
+            <path id="Path_8" d="M47.11 33.088V16.24h5.37a8.178 8.178 0 0 1 8.508 8.445 8.122 8.122 0 0 1-8.508 8.4zm12.384-8.4c0-3.938-2.527-7.118-6.992-7.118h-3.939v14.213H52.5c4.445 0 6.994-3.16 6.994-7.098z" class="cls1-1" data-name="Path 8" transform="translate(-12.318 9.032)"/>
+            <path id="Path_9" d="M55.42 33.088V16.24h1.432v16.848z" class="cls1-1" data-name="Path 9" transform="translate(-3.127 9.032)"/>
+            <path id="Path_10" d="M57.79 24.829a8.374 8.374 0 0 1 8.529-8.719 7.534 7.534 0 0 1 6.129 2.99l-1.222.779a6.083 6.083 0 0 0-4.926-2.442c-3.959 0-7.013 3.012-7.013 7.392 0 4.338 3.054 7.392 7.013 7.392a6.172 6.172 0 0 0 4.928-2.443l1.222.758a7.523 7.523 0 0 1-6.129 3.012 8.374 8.374 0 0 1-8.531-8.719z" class="cls1-1" data-name="Path 10" transform="translate(-.506 8.889)"/>
+            <path id="Path_11" d="M79.25 33.088l-1.664-4.149h-8.908l-1.664 4.149H65.35l6.887-16.848h1.79l6.887 16.848zM73.1 17.777l-3.959 9.856H77.1z" class="cls1-1" data-name="Path 11" transform="translate(7.856 9.032)"/>
+            <path id="Path_12" d="M73.92 33.088V16.24h1.432v15.543H83.5v1.306z" class="cls1-1" data-name="Path 12" transform="translate(17.335 9.032)"/>
+        </g>
+        <g id="Group_2" data-name="Group 2">
+            <path id="Path_13" d="M166.293 26.283a3.743 3.743 0 0 0-3.559 2.611H56.568l-9.33-16.238 3.917-6.529c.084 0 .168.021.253.021a3.075 3.075 0 1 0-3.054-3.075 3.111 3.111 0 0 0 .885 2.169l-3.917 6.529H27.9a5.675 5.675 0 0 0 1.622-3.98A5.718 5.718 0 1 0 23.8 13.5a5.185 5.185 0 0 0 1.516-.232l-8.973 15.627H7.455A3.781 3.781 0 1 0 7.076 31h9.6L25.5 46.375l-2.759 6.192a4.632 4.632 0 0 0-1.348-.211 5.092 5.092 0 1 0 3.2 1.179l2.675-6.023h16.769a5.708 5.708 0 1 0 4.8-2.654c-.232 0-.463.042-.695.063l8.15-14.174v.211h106.357A3.737 3.737 0 0 0 170 29.99a3.685 3.685 0 0 0-3.707-3.707zM51.429 2.106a.969.969 0 1 1-.969.969.966.966 0 0 1 .969-.969zM3.749 30.98a1.643 1.643 0 1 1 1.643-1.643 1.645 1.645 0 0 1-1.643 1.643zm17.67 29.358a2.927 2.927 0 1 1 2.927-2.927 2.935 2.935 0 0 1-2.928 2.927zM23.8 11.394a3.622 3.622 0 1 1 3.622-3.622 3.622 3.622 0 0 1-3.622 3.622zm25.1 35.592a3.622 3.622 0 1 1-3.622 3.622 3.622 3.622 0 0 1 3.622-3.622zm-3.391-1.558H27.4l-9.056-15.775L27.4 13.879h18.111l9.056 15.774zm120.784-13.753a1.643 1.643 0 1 1 1.643-1.643 1.645 1.645 0 0 1-1.643 1.643z" class="cls1-2" data-name="Path 13"/>
+            <path id="Path_14" d="M17.731 7.33L9.56 21.546l8.171 14.216h16.3L42.2 21.546 34.032 7.33zm15.079 26.3H18.953L12 21.525l6.95-12.11h13.861l6.95 12.11z" class="cls1-2" data-name="Path 14" transform="translate(10.574 8.107)"/>
+        </g>
+      </svg>
+    </div>
+
+    <header class="header">
+      <div class="floating-elements">
+        <div class="container">
+          <div class="row">
+            <div class="floating-line floating-line--1"></div>
+            <div class="floating-line floating-line--2"></div>
+            <div class="floating-line floating-line--3"></div>
+            <div class="floating-plus floating-plus--1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__inner">
+        <div class="container">
+          <a href="/" class="logo">
+            <img src="img/logo.svg" alt="#">
+          </a>
+          <div class="requests-bttns">
+            <a class="requests-bttns__pricing get-popup-form" data-src="#popUpPricing" href="javascript:;">Получить прайс</a>
+            <div class="requests-bttns__separator"></div>
+            <a class="requests-bttns__forming get-popup-form" data-src="#popUpForming" href="javascript:;">Сформировать КП</a>
+            <a class="requests-bttns__search get-popup-search" data-src="#popUpSearch" href="javascript:;"></a>
+          </div>
+          <div class="row align-items-end">
+            <div class="col-lg-9 col-md-6 col-sm-4 col-4">
+              <nav class="menu">
+                <button id="menu-open" class="hamburger hamburger--spring" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+                <ul>
+                  <li><a href="products-list.html">Продукция</a></li>
+                  <li><a href="about.html">О компании</a></li>
+                  <li><a href="delivery.html">Доставка</a></li>
+                  <li><a href="payment.html">Оплата</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-8 col-8">
+              <div class="text-right">
+                <a href="tel:+7(495)221-58-08" class="header__contact-phone">+7 (495) 221-58-08</a>
+                <br>
+                <a class="header__get-callback get-popup-form" data-src="#popUpCallback" href="javascript:;">Заказать звонок</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="tech-schedule">
+                <p>Время работы техподдержки:</p>
+                <p>Понедельник — пятница с 9:00 до 18:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 d-lg-flex align-items-end">
+              <div class="category-menu">
+                <a href="#" class="category-menu__button">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18">
+                      <defs>
+                          <style>
+                              .cls2-1{fill:#318beb}
+                          </style>
+                      </defs>
+                      <path id="menu" d="M3962 18v-2h20v2zm0-8V8h20v2zm0-8V0h20v2z" class="cls2-1" transform="translate(-3962)"/>
+                  </svg>
+                  <span>Категории товаров</span>
+                </a>
+                <ul class="category-menu__list">
+                  <li><a href="products-list.html">Субстанции</a></li>
+                  <li><a href="products-list.html">Вспомогательные вещества и химические реактивы</a></li>
+                  <li><a href="products-list.html">Медицинское стекло</a></li>
+                  <li><a href="products-list.html">Шприцы</a></li>
+                  <li><a href="products-list.html">Перчатки</a></li>
+                  <li><a href="products-list.html">Пластиковая тара</a></li>
+                  <li><a href="products-list.html">Дезинфекция</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="floating-elements">
+        <div class="container">
+          <div class="row">
+            <div class="floating-plus floating-plus--blue floating-plus--1"></div>
+            <div class="floating-plus floating-plus--blue floating-plus--2"></div>
+            <div class="floating-plus floating-plus--blue floating-plus--3"></div>
+            <div class="floating-plus floating-plus--blue floating-plus--4"></div>
+          </div>
+        </div>
+      </div>
+      <div class="main__inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="content">
+                <h1 class="section-title">Как сделать заказ</h1>
+                <p>
+                  С помощью этой простой инструкции вы сможете оформить свой заказ за считанные минуты. 
+                </p>
+                <br>
+                <p>
+                  Чтобы сделать заказ на нашем сайте, вам нужно:
+                </p>
+                <br>
+                <div class="how-order-desc">
+                  <div class="how-order-desc-box">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-12">
+                        <div class="how-order-desc-box__info">
+                          <div class="how-order-desc-box__index section-count">01</div>
+                          <p class="how-order-desc-box__text">
+                            Оставить заявку на выбранный товар. Для этого на странице товара укажите необходимое количество и нажмите кнопку «Оформить заявку».
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-md-12">
+                        <div class="how-order-desc-box__banner" style="background-image: url('img/how-order-desc-banner-1.jpg');"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="how-order-desc-box">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-12">
+                        <div class="how-order-desc-box__info">
+                          <div class="how-order-desc-box__index section-count">02</div>
+                          <p class="how-order-desc-box__text">
+                            2. После оформления заявки с вами свяжется менеджер. Если вы отправили заявку в рабочее время (ПН-ПТ с 9 до 19), тогда обратного звонка стоит ждать всего 10-15 минут. Кроме того, вы можете заказать обратный звонок специалиста, нажав на кнопку «Заказать бесплатный звонок» в правом верхнем углу экрана.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-md-12">
+                        <div class="how-order-desc-box__banner" style="background-image: url('img/how-order-desc-banner-2.jpg');"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="how-order-desc-box">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-12">
+                        <div class="how-order-desc-box__info">
+                          <div class="how-order-desc-box__index section-count">03</div>
+                          <p class="how-order-desc-box__text">
+                            Наш специалист детально проконсультирует вас по ассортименту и поможет выбрать нужный товар. После чего он сделает итоговый расчет цены, и, если она вас устраивает, поможет выбрать оптимальный способ получения заказа. Подробнее о 
+                            <a href="delivery.html" class="blue-link">доставке</a> 
+                            и 
+                            <a href="payment.html" class="blue-link">оплате</a> 
+                            вы можете почитать в соответствующих разделах.
+                            <br>
+                            <br>
+                            Если у вас возникли любые вопросы или трудности при работе с сайтом, звоните нам по бесплатному номеру: 
+                            <br>
+                            <span class="font-weight-bold">
+                              8 800 606 31 13
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-md-12">
+                        <div class="how-order-desc-box__banner" style="background-image: url('img/how-order-desc-banner-3.jpg');"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="floating-elements">
+        <div class="container">
+          <div class="row">
+            <div class="floating-line floating-line--1"></div>
+            <div class="floating-line floating-line--2"></div>
+            <div class="floating-line floating-line--3"></div>
+            <div class="floating-line floating-line--4"></div>
+            <div class="floating-plus floating-plus--1"></div>
+            <div class="floating-plus floating-plus--2"></div>
+            <div class="floating-plus floating-plus--3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <a href="/" class="logo">
+                <img src="img/logo.svg" alt="#">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer__firm-info">
+                <span>ООО «Фармамедикал»</span>
+                <br>
+                <br>
+                <a href="tel:+7(495)221-58-08">+7 (495) 221-58-08</a>
+                <br>
+                <a href="/">www.farmamed.ru</a>
+              </div>
+              <div class="studio-label">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                  <style type="text/css">
+                    .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+                  </style>
+                  <path class="st0" d="M13.4,7h-2.8h-0.2C9.7,5.3,7,0,7,0v7.3l-0.2,0l-4.1,4.2c0,0,5,2.5,7.2,5.8l-1-3.2l-3.4-2.7l4.5,1.7h0l0.9,8  l-0.7,0.6L12,24l1.6-2.1l-0.8-0.7l0.1-1.1c0-0.1,0.1-0.3,0.1-0.5l0,0l0.6-5.3l0.1-1h0l4.5-1.7L15,14.2l-1,3.2  c2.2-3.3,7.2-5.8,7.2-5.8l-4.1-4.2l-0.2,0V0c0,0-2.7,5.3-3.4,7H13.4L13.4,7z"/>
+                </svg>
+                <span>
+                  Сделано в
+                </span>
+                <a href="http://grey-fox.ru/" target="_blank">Grey Fox</a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <ul class="footer__category">
+                <li><a href="products-list.html">Субстанции</a></li>
+                <li><a href="products-list.html">Вспомогательные вещества и химические реактивы</a></li>
+                <li><a href="products-list.html">Дезинфекция</a></li>
+                <li><a href="products-list.html">Медицинское стекло</a></li>
+                <li><a href="products-list.html">Шприцы</a></li>
+                <li><a href="products-list.html">Перчатки</a></li>
+                <li><a href="products-list.html">Пластиковая тара</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="menu">
+                <button id="menu-open" class="hamburger hamburger--spring" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+                <ul>
+                  <li><a href="how-order.html">Как сделать заказ?</a></li>
+                  <li><a href="about.html">О компании</a></li>
+                  <li><a href="delivery.html">Доставка</a></li>
+                  <li><a href="payment.html">Оплата</a></li>
+                  <li><a href="rules.html">Правила работы</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="popUpSearch" class="popup-search popup-search--no-result">
+      <div class="floating-elements compensate-for-scrollbar">
+        <div class="container">
+          <div class="row">
+            <div class="floating-line floating-line--1"></div>
+            <div class="floating-line floating-line--2"></div>
+            <div class="floating-line floating-line--3"></div>
+            <div class="floating-plus floating-plus--1"></div>
+            <div class="floating-plus floating-plus--2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-search__inner">
+        <div class="compensate-for-scrollbar">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 offset-md-1">
+                <div class="popup-search__content">
+                  <h2 class="popup-search__title">
+                    Поиск по сайту
+                  </h2>
+                  <form action="" class="popup-search__form">
+                    <input type="text" name="search" placeholder="Поиск">
+                    <button type="submit"></button>
+                  </form>
+                  <div class="popup-search__results-wrapper">
+                    <ul class="popup-search__results">
+                      <li>
+                        <a href="#">Bcaa instant 2.1.1 (бцаа)</a>
+                      </li>
+                      <li>
+                        <a href="#">Bcaa instant 3.3.4 (бцаа)</a>
+                      </li>
+                      <li>
+                        <a href="#">Bcaa super 3.3.4 (бцаа)</a>
+                      </li>
+                      <li>
+                        <a href="#">Bcaa instant 2.1.1 (бцаа)</a>
+                      </li>
+                      <li>
+                        <a href="#">Bcaa instant 3.3.4 (бцаа)</a>
+                      </li>
+                      <li>
+                        <a href="#">Bcaa super 3.3.4 (бцаа)</a>
+                      </li>
+                    </ul>
+                    <div class="popup-search__no-result">
+                      <img src="img/no-result-icon.svg" alt="#">
+                      <h5>Нам не удалось ничего найти</h5>
+                      <p>Попробуйте изменить критерии поиска</p>
+                    </div>
+                    <div class="popup-search__help">
+                      <h3>Не нашли нужного товара?</h3>
+                      <p>
+                        Оставьте заявку, и мы закажем его для вас в минимальные сроки!
+                      </p>
+                      <a class="btn btn-white get-popup-form" data-src="#popUpShop" href="javascript:;">Оставить заявку</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button data-fancybox-close="" type="button" class="fancybox-button fancybox-close-small" title="Close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.429 42.429"><defs><style>.cls3-1{fill:#fff}</style></defs><path id="close" d="M-19671 33V20h-13v-4h13V3h4v13h13v4h-13v13z" class="cls3-1" transform="rotate(-45 -9820.012 -23748.587)"/></svg></button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popUpCallback" class="popup-form">
+      <div class="popup-form__done-message">
+        <img src="img/done-icon.svg" alt="#">
+        <h2>Спасибо за вашу заявку</h2>
+        <p>Наш специалист скоро свяжется с Вами.</p>
+      </div>
+      <h2 class="popup-form__title">Заказать обратный звонок</h2>
+      <form action="" class="dflt-form form-validate">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="name" id="popUpCallbackName" required>
+              <label for="popUpCallbackName">Ваше имя</label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="phone" id="popUpCallbackPhone" required>
+              <label for="popUpCallbackPhone">Ваш телефон</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="agreement">
+              <input type="checkbox" name="agreement" id="popUpCallbackAgree" required>
+              <label for="popUpCallbackAgree">
+                <span>
+                </span>
+                <span>Я согласен с <a href="#" data-toggle="tooltip" data-placement="top" title="Настоящим вы выражаете свое согласие для использования продавцом или уполномоченным лицом продавца ваших персональных данных, в том числе путем осуществления автоматизированного анализа персональных данных, а также на их передачу различными способами, без ограничения срока действия. В соответствии с п. 5 ст. 21 ФЗ «О персональных данных» настоящее согласие может быть отозвано только при условии письменного уведомления на почту не менее чем за 5 календарных дней до предполагаемой даты прекращения использования персональных данных.">правилами обработки персональных данных</a></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-white">Заказать звонок специалиста</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="popUpPricing" class="popup-form">
+      <div class="popup-form__done-message">
+        <img src="img/done-icon.svg" alt="#">
+        <h2>Спасибо за вашу заявку</h2>
+        <p>Наш специалист скоро свяжется с Вами.</p>
+      </div>
+      <h2 class="popup-form__title">Оставьте заявку,</h2>
+      <p class="popup-form__desc">
+        и мы вышлем вам прайс-лист в ответном письме!
+      </p>
+      <form action="" class="dflt-form form-validate">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="name" id="popUpPricingName" required>
+              <label for="popUpPricingName">Ваше имя</label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="email" id="popUpPricingEmail" required>
+              <label for="popUpPricingEmail">Ваш e-mail</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="agreement">
+              <input type="checkbox" name="agreement" id="popUpPricingAgree" required>
+              <label for="popUpPricingAgree">
+                <span>
+                </span>
+                <span>Я согласен с <a href="#" data-toggle="tooltip" data-placement="top" title="Настоящим вы выражаете свое согласие для использования продавцом или уполномоченным лицом продавца ваших персональных данных, в том числе путем осуществления автоматизированного анализа персональных данных, а также на их передачу различными способами, без ограничения срока действия. В соответствии с п. 5 ст. 21 ФЗ «О персональных данных» настоящее согласие может быть отозвано только при условии письменного уведомления на почту не менее чем за 5 календарных дней до предполагаемой даты прекращения использования персональных данных.">правилами обработки персональных данных</a></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-white">Получить прайс</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="popUpForming" class="popup-form">
+      <div class="popup-form__done-message">
+        <img src="img/done-icon.svg" alt="#">
+        <h2>Спасибо за вашу заявку</h2>
+        <p>Наш специалист скоро свяжется с Вами.</p>
+      </div>
+      <h2 class="popup-form__title">Сформировать КП</h2>
+      <p class="popup-form__desc">
+        Отправьте заявку, и мы перезвоним вам, чтобы подготовить 
+        <br>
+        индивидуальное коммерческое предложение!
+      </p>
+      <form action="" class="dflt-form form-validate">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="name" id="popUpFormingName" required>
+              <label for="popUpFormingName">Ваше имя</label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="phone" id="popUpFormingPhone" required>
+              <label for="popUpFormingPhone">Ваш телефон</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="agreement">
+              <input type="checkbox" name="agreement" id="popUpFormingAgree" required>
+              <label for="popUpFormingAgree">
+                <span>
+                </span>
+                <span>Я согласен с <a href="#" data-toggle="tooltip" data-placement="top" title="Настоящим вы выражаете свое согласие для использования продавцом или уполномоченным лицом продавца ваших персональных данных, в том числе путем осуществления автоматизированного анализа персональных данных, а также на их передачу различными способами, без ограничения срока действия. В соответствии с п. 5 ст. 21 ФЗ «О персональных данных» настоящее согласие может быть отозвано только при условии письменного уведомления на почту не менее чем за 5 календарных дней до предполагаемой даты прекращения использования персональных данных.">правилами обработки персональных данных</a></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-white">Сформировать КП</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="popUpShop" class="popup-form">
+      <div class="popup-form__done-message">
+        <img src="img/done-icon.svg" alt="#">
+        <h2>Спасибо за вашу заявку</h2>
+        <p>Наш специалист скоро свяжется с Вами.</p>
+      </div>
+      <h2 class="popup-form__title">Не нашли нужного товара?</h2>
+      <p class="popup-form__desc">
+        Оставьте заявку, и мы закажем его для вас в минимальные сроки!
+      </p>
+      <form action="" class="dflt-form form-validate">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="name" id="popUpShopName" required>
+              <label for="popUpShopName">Ваше имя</label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-box">
+              <input type="text" name="phone" id="popUpShopPhone" required>
+              <label for="popUpShopPhone">Ваш телефон</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="agreement">
+              <input type="checkbox" name="agreement" id="popUpShopAgree" required>
+              <label for="popUpShopAgree">
+                <span>
+                </span>
+                <span>Я согласен с <a href="#" data-toggle="tooltip" data-placement="top" title="Настоящим вы выражаете свое согласие для использования продавцом или уполномоченным лицом продавца ваших персональных данных, в том числе путем осуществления автоматизированного анализа персональных данных, а также на их передачу различными способами, без ограничения срока действия. В соответствии с п. 5 ст. 21 ФЗ «О персональных данных» настоящее согласие может быть отозвано только при условии письменного уведомления на почту не менее чем за 5 календарных дней до предполагаемой даты прекращения использования персональных данных.">правилами обработки персональных данных</a></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-white">Оформить заявку</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- JS -->
+    <script src="js/apps.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

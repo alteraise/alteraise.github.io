@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18">
+    <defs>
+        <style>
+            .cls-1{fill:#318beb}
+        </style>
+    </defs>
+    <path id="menu" d="M3962 18v-2h20v2zm0-8V8h20v2zm0-8V0h20v2z" class="cls-1" transform="translate(-3962)"/>
+</svg>

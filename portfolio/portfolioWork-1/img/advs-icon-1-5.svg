@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="warehouse" viewBox="0 0 94 94">
+    <defs>
+        <style>
+            .cls-1{fill:#0dc3f4}.cls-2{fill:#0060c6}
+        </style>
+    </defs>
+    <path id="Path_110" d="M1.382 26.5L45.72.815 47.1 0l1.382.815L92.618 26.5l1.382.79V94H0V27.29l1.382-.79zm11.7 7.135H43.16v5.5H13.081v-5.5zm0 11.008H43.16v5.5H13.081v-5.5zm41.6 11.008h26.237v5.5H54.68v-5.5zm0 11.008h26.237v5.5H54.68v-5.5zM47.1 6.37L5.529 30.45V88.5h82.942V30.45L47.1 6.37z" class="cls-1" data-name="Path 110"/>
+    <path id="Path_111" d="M46.709 43.856h26.239v5.5H46.709v-5.5zM5.11 21.84h30.079v5.5H5.11v-5.5zm0 11.008h30.079v5.5H5.11v-5.5zm0 11.008h30.079v5.5H5.11v-5.5z" class="cls-2" data-name="Path 111" transform="translate(7.971 33.811)"/>
+</svg>
