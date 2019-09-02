@@ -1,0 +1,422 @@
+// Bootstrap 4
+// @import "bootstrap"
+
+*
+	box-sizing: border-box
+
+body
+	font-family: 'Roboto', sans-serif
+	font-size: 16px
+	font-weight: 300
+	font-style: normal
+	line-height: 1.4
+	color: #161616
+	background-color: #fff
+
+a, p, h1, h2, h3, h4, h5, h6, span, button, input, textarea
+	outline: none
+
+a, a:active, a:visited
+	text-decoration: none
+	outline: none
+	color: #161616
+
+a:hover
+	color: #345996
+
+button
+	border: none
+	appearance: none
+	&:focus
+		outline: none
+
+.text-center
+	text-align: center
+
+.custom-input
+	display: block
+	max-width: 520px
+	width: 100%
+	margin: 0 auto 25px
+	padding: 12.5px
+	border: 1px solid #e6e6e6
+	border-radius: 5px
+	box-shadow: none
+	font-size: 24px
+	font-weight: 400
+	text-align: center
+	background-color: transparent
+	color: #c9c9c9
+	appearance: none
+	&::placeholder
+		opacity: 1
+	&:focus::placeholder
+		opacity: 0
+
+.custom-select
+	position: relative
+	max-width: 320px
+	width: 100%
+	margin: 1px auto 24px
+	&__source
+		display: none
+	&__items
+		position: absolute
+		left: 0
+		top: calc(100% - 5px)
+		z-index: 10
+		width: 100%
+		padding-bottom: 5px
+		border: 1px solid #e6e6e6
+		border-top: 0
+		border-bottom-right-radius: 5px
+		border-bottom-left-radius: 5px
+		background-color: #fff
+		&-single
+			padding: 5px 15px
+			font-size: 24px
+			font-weight: 400
+			line-height: 1
+			text-align: center
+			transition: all .3s ease
+			color: #c9c9c9
+			&:hover
+				background-color: #ECECEC
+				cursor: pointer
+		&-hide
+			display: none
+		&-current
+			position: relative
+			width: 100%
+			min-height: 60px
+			padding: 11px 0 13px
+			border: 1px solid #e6e6e6
+			border-radius: 5px
+			box-shadow: none
+			font-size: 24px
+			font-weight: 400
+			text-align: center
+			background-color: transparent
+			color: #c9c9c9
+			&:hover
+				cursor: pointer
+			&:after
+				content: ''
+				position: absolute
+				top: 50%
+				right: 18px
+				transform: translateY(-50%)
+				width: 14px
+				height: 15px
+				background-image: url('../img/arrow-down.png')
+				background-repeat: no-repeat
+				background-position: center
+				background-size: 100% auto
+
+.custom-checkbox
+	position: relative
+	display: inline-block
+	width: 100%
+	margin-bottom: 11px
+	&__source
+		position: absolute
+		left: 0
+		top: 0
+		visibility: hidden
+		opacity: 0
+		&:checked + label
+			&:before
+				background-image: url('../img/checkbox-check-icon.png')
+	&__label
+		position: relative
+		padding-left: 31px
+		line-height: 1.5
+		color: #000000
+		&:before
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			display: block
+			width: 18px
+			height: 18px
+			border: 1px solid #345996
+			border-radius: 2px
+			background-repeat: no-repeat
+			background-position: center
+			background-size: 15px auto
+		&:before,
+		span
+			cursor: pointer
+
+.custom-range
+	margin-left: -12px
+	margin-right: -12px
+	&__labels
+		position: relative
+		z-index: 10
+		display: flex
+		align-items: flex-end
+		width: calc(100% - 24px)
+		margin-left: 12px
+		margin-right: 12px
+		margin-bottom: 10px
+		&-mark
+			position: relative
+			flex-basis: 25%
+			flex-shrink: 0
+			display: block
+			padding-bottom: 3px
+			font-size: 13px
+			color: #2f1b15
+			span
+				&:nth-child(2)
+					display: none
+					font-size: 35px
+					font-weight: 100
+			&:before
+				content: ''
+				position: absolute
+				left: 0
+				top: 100%
+				width: 1px
+				height: 20px
+				background-image: linear-gradient(to bottom, #b5b5b5 40%, rgba(255, 255, 255, 0) 20%)
+				background-repeat: repeat-y
+				background-position: left
+				background-size: 1px 3px 
+			&_1
+				flex-basis: 24%
+			&_2
+				flex-basis: 26%
+				&:before
+					height: 16px
+			&_3
+				&:before
+					height: 13px
+			&_4
+				text-align: right
+				&:before
+					left: auto
+					right: 0
+					height: 8px
+	&__bar
+		position: relative
+		width: calc(100% - 24px)
+		height: 15px
+		margin-left: 12px
+		margin-right: 12px
+		margin-bottom: 4px
+		overflow: hidden
+		background-color: rgba(22, 22, 22, 0.1)
+		&-fill
+			position: absolute
+			left: 0
+			top: 0
+			height: 100%
+			background: linear-gradient(to right, #ebdbf9, #8a86c5)
+		&:before
+			content: ''
+			position: absolute
+			left: -1px
+			right: -1px
+			z-index: 5
+			bottom: 3px
+			height: 20px
+			transform: rotateZ(-0.88deg)
+			transform-origin: top left
+			background-color: #fff
+		&-tickmark
+			position: absolute
+			top: 0
+			z-index: 6
+			width: 1px
+			height: 100%
+			background-color: #fff
+			&_1
+				left: 24%
+			&_2
+				left: 50%
+	&__input
+		width: 100%
+		height: 25px
+		pointer-events: none
+		appearance: none
+		&::-webkit-slider-thumb
+			width: 25px
+			height: 26px
+			border: 0
+			box-shadow: none
+			background-color: transparent
+			background-image: url('../img/range-slider-icon.png')
+			background-repeat: no-repeat
+			background-position: center
+			background-size: auto 100%
+			cursor: pointer
+			pointer-events: auto
+			appearance: none
+		&::-moz-range-thumb
+			width: 25px
+			height: 26px
+			border: 0
+			box-shadow: none
+			background-color: transparent
+			background-image: url('../img/range-slider-icon.png')
+			background-repeat: no-repeat
+			background-position: center
+			background-size: auto 100%
+			cursor: pointer
+			pointer-events: auto
+			appearance: none
+		&::-ms-thumb
+			width: 25px
+			height: 26px
+			border: 0
+			box-shadow: none
+			background-color: transparent
+			background-image: url('../img/range-slider-icon.png')
+			background-repeat: no-repeat
+			background-position: center
+			background-size: auto 100%
+			cursor: pointer
+			pointer-events: auto
+			appearance: none
+
+.custom-textarea
+	display: block
+	max-width: 520px
+	min-height: 180px
+	width: 100%
+	margin: 0 auto 70px
+	padding: 16px 18px
+	border: 1px solid #e6e6e6
+	border-radius: 5px
+	box-shadow: none
+	resize: none
+	font-size: 20px
+	font-weight: 400
+	background-color: transparent
+	color: #c9c9c9
+	appearance: none
+	&::placeholder
+		opacity: 1
+	&:focus::placeholder
+		opacity: 0
+
+.custom-button
+	display: inline-block
+	width: auto
+	height: auto
+	margin: 0 auto
+	padding: 14px 32px 15px
+	border: 0
+	border-radius: 10px
+	box-shadow: none
+	line-height: 1.3
+	background-color: #345996
+	transition: all .3s ease
+	cursor: pointer
+	color: #ffffff
+	&:hover
+		background-color: #1B407D
+	&:active
+		position: relative
+		top: 2px
+
+
+
+
+
+.container
+	max-width: 770px
+	width: 100%
+	margin: 0 auto
+
+.header
+	background-color: #fff
+
+.main-nav
+	position: relative
+	&__menu-button
+		display: none
+		width: 40px
+		height: 40px
+		border: 0
+		box-shadow: none
+		background-color: transparent
+		background-image: url('../img/menu-icons.png')
+		background-repeat: no-repeat
+		background-position: 0 center
+		background-size: auto 100%
+		&_active
+			background-position: 100% center
+		&:hover
+			cursor: pointer
+
+.main-menu
+	display: flex
+	justify-content: space-between
+	margin: 0
+	padding: 32px 134px 28px
+	list-style-type: none
+	&__link
+		display: block
+		font-size: 14px
+		transition: all .3s ease
+
+.content
+	min-height: 100vh
+	padding: 121px 0 75px
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0) 80px, rgba(255,255,255,1) 160px), url('../img/content-bg.jpg')
+	background-repeat: no-repeat
+	background-position: center top
+	background-size: cover, 100% auto
+
+.main-title
+	margin: 0
+	font-size: 70px
+	font-weight: 100
+	line-height: 1
+	text-align: center
+
+.section-title
+	margin: 65px 0 47px
+	text-align: center
+	&__icon
+		display: inline-block
+		max-width: 50px
+		height: auto
+		margin-bottom: 20px
+	&__text
+		font-size: 29px
+		font-weight: 300
+		line-height: 1
+		letter-spacing: 0.5px
+
+.section-subtitle
+	margin: 0 0 36px
+	line-height: 1.5
+	text-align: center
+
+.describe-form
+	.section-title
+		&:nth-of-type(2)
+			margin-top: 73px
+			margin-bottom: 45px
+		&:nth-of-type(3)
+			margin-top: 123px
+			margin-bottom: 44px
+		&:nth-of-type(4)
+			margin-top: 67px
+			margin-bottom: 12px
+			.section-title__icon
+				margin-bottom: 23px
+
+.form-field
+	&_personal
+		padding-left: 5px
+	&_skills
+		columns: 3
+		column-gap: 70px
+	&_about
+		padding-left: 6px

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Site Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Some SEO words">
+
+    <!-- Normalize CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Plugins CSS-->
+
+
+    <link href="css/fonts.min.css" rel="stylesheet">
+    <link href="css/header.min.css" rel="stylesheet">
+    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/media.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="container">
+        <nav class="main-nav">
+          <button id="menuButton" class="main-nav__menu-button"></button>
+          <ul id="mainMenu" class="main-menu">
+            <li class="main-menu__item">
+              <a href="#menuPoint1" class="main-menu__link">Личная информация</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#menuPoint2" class="main-menu__link">Опыт</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#menuPoint3" class="main-menu__link">JavaScript</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#menuPoint4" class="main-menu__link">О себе</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="container">
+        <h1 class="main-title">
+          Анкета
+        </h1>
+        <form id="describeForm" action="#" method="POST" class="describe-form">
+          <h3 id="menuPoint1" class="section-title">
+            <img src="img/section-title-icon-1.png" alt="Личная информация" class="section-title__icon">
+            <br>
+            <span class="section-title__text">
+              Личная информация
+            </span>
+          </h3>
+          <div class="form-field form-field_personal">
+            <input type="text" class="custom-input" id="name" name="name" placeholder="ФИО" value="Пащенко Кирилл Евгеньевич">
+            <div class="custom-select">
+              <select name="year" class="custom-select__source">
+                <option value="0" disabled>Год рождения</option>
+                <option value="1" selected>1992</option>
+                <option value="2">1993</option>
+                <option value="3">1994</option>
+                <option value="4">1995</option>
+              </select>
+            </div>
+            <input type="text" class="custom-input" id="location" name="location" placeholder="Место проживания" value="Луганск">
+            <input type="text" class="custom-input" id="skype" name="skype" placeholder="Skype" value="gamepro_hypnosis">
+            <input type="text" class="custom-input" id="email" name="email" placeholder="E-mail" value="contactcatevari@gmail.com">
+          </div>
+          <h3 id="menuPoint2" class="section-title">
+            <img src="img/section-title-icon-2.png" alt="Расскажите о своем опыте" class="section-title__icon">
+            <br>
+            <span class="section-title__text">
+              Расскажите о своем опыте
+            </span>
+          </h3>
+          <div class="form-field form-field_skills">
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="bem" name="bem" checked>
+              <label class="custom-checkbox__label" for="bem">
+                <span>БЭМ/OOCSS</span>
+              </label>
+            </div>
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="stylus" name="stylus" checked>
+              <label class="custom-checkbox__label" for="stylus">
+                <span>Stylus/LESS/SASS</span>
+              </label>
+            </div>
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="svg" name="svg" checked>
+              <label class="custom-checkbox__label" for="svg">
+                <span>Работаю с SVG</span>
+              </label>
+            </div>
+
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="semantic" name="semantic" checked>
+              <label class="custom-checkbox__label" for="semantic">
+                <span>Верстаю семантично</span>
+              </label>
+            </div>
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="es" name="es">
+              <label class="custom-checkbox__label" for="es">
+                <span>ES2015/ES2016</span>
+              </label>
+            </div>
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="gulp" name="gulp" checked>
+              <label class="custom-checkbox__label" for="gulp">
+                <span>Gulp/GRUNT</span>
+              </label>
+            </div>
+
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="webpack" name="webpack">
+              <label class="custom-checkbox__label" for="webpack">
+                <span>Webpack</span>
+              </label>
+            </div>
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="jquery" name="jquery" checked>
+              <label class="custom-checkbox__label" for="jquery">
+                <span>jQuery</span>
+              </label>
+            </div>
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__source" type="checkbox" id="git" name="git" checked>
+              <label class="custom-checkbox__label" for="git">
+                <span>Ипользую Git</span>
+              </label>
+            </div>
+          </div>
+          <h3 id="menuPoint3" class="section-title">
+            <img src="img/section-title-icon-3.png" alt="Уровень владения JavaScript" class="section-title__icon">
+            <br>
+            <span class="section-title__text">
+              Уровень владения JavaScript
+            </span>
+          </h3>
+          <div class="form-field form-field_js">
+            <div id="jsRange" class="custom-range">
+              <div class="custom-range__labels">
+                <span class="custom-range__labels-mark custom-range__labels-mark_1">
+                  <span>
+                    Не владею
+                  </span>
+                  <span>
+                    2
+                  </span>
+                </span>
+                <span class="custom-range__labels-mark custom-range__labels-mark_2">
+                  <span>
+                    Использую готовые
+                    <br>
+                    решения
+                  </span>
+                  <span>
+                    3
+                  </span>
+                </span>
+                <span class="custom-range__labels-mark custom-range__labels-mark_3">
+                  <span>
+                    Использую готовые решения
+                    <br>
+                    и умею и переделывать
+                  </span>
+                  <span>
+                    4
+                  </span>
+                </span>
+                <span class="custom-range__labels-mark custom-range__labels-mark_4">
+                  <span>
+                    Пишу сложный JS с нуля
+                  </span>
+                  <span>
+                    5 +
+                  </span>
+                </span>
+              </div>
+              <div class="custom-range__bar">
+                <div id="jsRangeBar" class="custom-range__bar-fill"></div>
+                <div class="custom-range__bar-tickmark custom-range__bar-tickmark_1"></div>
+                <div class="custom-range__bar-tickmark custom-range__bar-tickmark_2"></div>
+              </div>
+              <input type="range" name="jsrange" id="jsRangeInput" class="custom-range__input" min="0" max="100" step="1" value="50">
+            </div>
+          </div>
+          <h3 id="menuPoint4" class="section-title">
+            <img src="img/section-title-icon-4.png" alt="Расскажите о себе" class="section-title__icon">
+            <br>
+            <span class="section-title__text">
+              Расскажите о себе
+            </span>
+          </h3>
+          <p class="section-subtitle">
+            Напишите несколько предложений, чем привлекла наша вакансия
+            <br>
+            и что вы ожидаете от работы у нас.
+          </p>
+          <div class="form-field form-field_about">
+            <textarea name="about" id="about" class="custom-textarea" placeholder="Понравилась тем, что...">
+              Вперую очередь меня привлекла возможность удаленной работы, это важнейший фактор. 
+              Интересно было бы поработать в организации, у которой такой опыт. 
+              Так же мне импонирует возможность роста и требовательное руководство, которое скорее всего соответствует своим требованиям.
+            </textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="custom-button">Готово</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+
+    <!-- JS -->
+    <script src="js/apps.js"></script>
+  </body>
+</html>
