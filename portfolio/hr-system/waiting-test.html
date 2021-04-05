@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Система найма сотрудников</title>
+    <link rel="icon" type="image/png" href="img/favicon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/plugins.min.css">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/header.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__nav">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3"><a class="logo" href="#"><img src="img/logo.svg" alt="#"></a></div>
+            <div class="col-lg-9">
+              <div class="steps-progress steps-progress_s5 steps-progress_lvl-5">
+                <ul class="steps-progress__line">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <ul class="steps-progress__dots">
+                  <li data-title="Резюме"></li>
+                  <li data-title="Оценка"></li>
+                  <li data-title="Тестовое"></li>
+                  <li data-title="Собеседование"></li>
+                  <li data-title="Финиш"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="waiting-test">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="waiting-test-info">
+                    <h4 class="waiting-test-info__small-title">Иванов Иван Петрович добрый день</h4>
+                    <h1 class="waiting-test-info__large-title">вы приступили <br>к <span>тестовому заданию </span><br>когда нам его ожидать?</h1>
+                    <div class="waiting-test-info__attention">
+                      <div class="waiting-test-info__attention-icon"><img src="img/waiting-test-info-icon.svg" alt="#"></div>
+                      <h5 class="waiting-test-info__attention-text">Собеседование через 24 часа. <br>Вы еще можете успеть  в этот поток!</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <form class="waiting-test-send-form" action="#" method="POST">
+                    <div class="waiting-test-send-form__field dflt-datepicker">
+                      <input class="dflt-input" type="text" name="date" placeholder="23/11/2019">
+                    </div>
+                    <button class="dflt-bttn" type="submit">Отправлю к этой дате</button>
+                  </form>
+                  <form class="waiting-test-problems-form" action="#" method="POST">
+                    <h5 class="waiting-test-problems-form__title">Или что-нибудь случилось?</h5>
+                    <div class="waiting-test-problems-form__radio-group">
+                      <div class="dflt-radio">
+                        <input type="radio" name="problem" value="problem1" id="radioProblem1">
+                        <label for="radioProblem1"><span>Уже нашел работу</span></label>
+                      </div>
+                      <div class="dflt-radio">
+                        <input type="radio" name="problem" value="problem2" id="radioProblem2">
+                        <label for="radioProblem2"><span>Не смог сделать задание</span></label>
+                      </div>
+                      <div class="dflt-radio">
+                        <input type="radio" name="problem" value="problem3" id="radioProblem3" checked>
+                        <label for="radioProblem3"><span>Другое</span></label>
+                      </div>
+                    </div>
+                    <textarea class="dflt-textarea waiting-test-problems-form__textarea" placeholder="Опишите вашу проблему"></textarea>
+                    <button class="dflt-bttn dflt-bttn_ghost" type="submit">Ответить</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="dflt-popup mfp-hide" id="popupSendDate">
+      <div class="dflt-popup__inner">
+        <div class="dflt-popup__icon"><img src="img/popup-check-icon.svg" alt="#"></div>
+        <div class="dflt-popup__info">
+          <h5 class="dflt-popup__title">Ваша дата учтена</h5>
+          <p class="dflt-popup__text">Ждем ваше тестовое задание!</p>
+        </div>
+      </div>
+    </div>
+    <div class="dflt-popup mfp-hide" id="popupSendProblem">
+      <div class="dflt-popup__inner">
+        <div class="dflt-popup__icon"><img src="img/popup-check-icon.svg" alt="#"></div>
+        <div class="dflt-popup__info">
+          <h5 class="dflt-popup__title">Отправлено</h5>
+          <p class="dflt-popup__text">Вы отправили нам комментарий</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/apps.js"></script>
+  </body>
+</html>

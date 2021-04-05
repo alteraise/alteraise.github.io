@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Рейтинг постов</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/plugins.min.css">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/header.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__nav-line">
+        <div class="container">
+          <div class="row align-items-stretch">
+            <div class="col-3 d-lg-none">
+              <button class="menu-button" type="button"><span></span><span></span><span></span></button>
+            </div>
+            <div class="col-6 col-lg-3"><a class="main-logo" href="#"><img src="img/logo.png" alt="#"><span>inStat</span></a></div>
+            <div class="col-lg-4 col-xl-5 d-none d-md-none d-lg-block">
+              <ul class="main-menu">
+                <li class="main-menu__item"><a class="main-menu__link" href="#">О сервисе</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#">Цены</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="col-3 col-lg-5 col-xl-4 d-lg-flex">
+              <button class="notifications-button" type="button"><span class="notifications-button__inner"><img class="notifications-button__icon" src="img/notifications-icon.png" alt="#"><span class="notifications-button__count">8</span></span></button>
+              <div class="user-logout d-none d-md-none d-lg-flex">
+                <div class="user-logout__user-img"><img src="img/profile-img.png" alt="#"></div><a class="user-logout__name" href="#"><span class="user-logout__name-text">Дмитрий Козаков</span><span class="user-logout__name-icon"></span></a><a class="user-logout__bttn dflt-modal-open" href="#modalLogout">Выйти из аккаунта                    </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="main-nav d-lg-none">
+              <div class="profile-display"><a class="profile-display__title" href="#">Личный кабинет</a><a class="profile-display__inner" href="#"><span class="profile-display__img"><img src="img/profile-img.png" alt="#"></span><span class="profile-display__info"><span class="profile-display__info-login">@dmitry_kozakov</span><span class="profile-display__info-name">Дмитрий Козаковник</span></span></a></div>
+              <ul class="nav-menu nav-menu_1">
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#" data-menu-link="1"><img class="nav-menu__link-icon" src="img/nav-menu-icon-1.png" alt="#">Аудитория</a>
+                  <ul class="nav-menu__dropdown">
+                    <li><a href="#">Мои подписчики</a></li>
+                    <li><a href="#">Мои подписки</a></li>
+                    <li><a href="#">Не подписаны на меня</a></li>
+                    <li><a href="#">На кого не подписан я</a></li>
+                    <li><a href="#">Отписавшиеся</a></li>
+                  </ul>
+                </li>
+                <li class="nav-menu__item"><a class="nav-menu__link" href="#" data-menu-link="2"><img class="nav-menu__link-icon" src="img/nav-menu-icon-2.png" alt="#">Рейтинг постов</a></li>
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#" data-menu-link="3"><img class="nav-menu__link-icon" src="img/nav-menu-icon-3.png" alt="#">Комментарии</a>
+                  <ul class="nav-menu__dropdown">
+                    <li><a href="#">Комментарии профиля</a></li>
+                    <li><a href="#">Общий список</a></li>
+                  </ul>
+                </li>
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#" data-menu-link="4"><img class="nav-menu__link-icon" src="img/nav-menu-icon-4.png" alt="#">Активность в профиле</a>
+                  <ul class="nav-menu__dropdown">
+                    <li><a href="#">По лайкам</a></li>
+                    <li><a href="#">По комментариям</a></li>
+                    <li><a href="#">Общий список</a></li>
+                    <li><a href="#">Неактивные подписчики               </a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="main-menu">
+                <li class="main-menu__item"><a class="main-menu__link" href="#">О сервисе</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#">Цены</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#">Контакты</a></li>
+              </ul>
+              <div class="main-nav__logout"><a class="dflt-modal-open" href="#modalLogout">Выход</a></div>
+            </nav>
+            <div class="notifications-list results-wrapper" id="notifications-list">
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">andrey_ageenkov</a><span class="notifications-list__item-desc">поставил(-а) вашему фото «Нравится».</span><span class="notifications-list__item-date">1 дн. назад</span></div>
+              </div>
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">joellemardinian</a><span class="notifications-list__item-desc">опубликовала фото</span><span class="notifications-list__item-date">1 дн. назад</span></div>
+                <div class="notifications-list__item-img"><img src="img/notification-post-img.jpg" alt="#"></div>
+              </div>
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">mariya_hazer</a><span class="notifications-list__item-desc">подписался(-ась) на вас.</span><span class="notifications-list__item-date">4 нед.</span></div>
+              </div>
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">dmitry_kurilo</a><span class="notifications-list__item-desc">поставил(-а) вашему фото «Нравится».</span><span class="notifications-list__item-date">4 дн. назад</span></div>
+              </div>
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">andrey_ageenkov</a><span class="notifications-list__item-desc">поставил(-а) вашему фото «Нравится».</span><span class="notifications-list__item-date">1 дн. назад</span></div>
+              </div>
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">joellemardinian</a><span class="notifications-list__item-desc">опубликовала фото</span><span class="notifications-list__item-date">1 дн. назад</span></div>
+                <div class="notifications-list__item-img"><img src="img/notification-post-img.jpg" alt="#"></div>
+              </div>
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">mariya_hazer</a><span class="notifications-list__item-desc">подписался(-ась) на вас.</span><span class="notifications-list__item-date">4 нед.</span></div>
+              </div>
+              <div class="notifications-list__item">
+                <div class="notifications-list__item-info"><a class="notifications-list__item-link" href="#">dmitry_kurilo</a><span class="notifications-list__item-desc">поставил(-а) вашему фото «Нравится».</span><span class="notifications-list__item-date">4 дн. назад</span></div>
+              </div>
+            </div>
+            <script>
+              window.onload = function() {
+                  const notificationScrollWrapper = document.querySelector('#notifications-list');
+                  const notificationScrollBar = new PerfectScrollbar(notificationScrollWrapper, {
+                      suppressScrollX: true
+                  });
+                  notificationScrollWrapper.scrollTop = 0;
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-wrapper_solid">
+      <div class="container">
+        <main class="main main_solid-2">
+          <div class="profile-current">
+            <div class="profile-current__bttn"><a class="dflt-bttn" href="#">Профиль</a></div>
+            <div class="profile-current__info"><span class="profile-current__info-login">@dmitry_kozakov</span><span class="profile-current__info-name">Дмитрий Козаковник</span></div>
+          </div>
+          <div class="ratings-filter">
+            <div class="ratings-filter__controls">
+              <button class="ratings-filter__controls-back" type="button"><span>Назад</span></button><span class="ratings-filter__controls-title">Рейтинг постов</span>
+              <div class="ratings-filter__controls-sort">
+                <button type="button"></button>
+                <button type="button"></button>
+              </div>
+              <div class="dflt-filter-select">
+                <button class="dflt-filter-select__bttn" type="button"></button>
+                <form class="dflt-filter-select__dropdown" id="ratingsFilter" action="#">
+                  <div class="dflt-filter-select__dropdown-row">
+                    <input type="radio" id="ratingType1" name="ratingtypes" checked>
+                    <label for="ratingType1">Наибольшее количество активности</label>
+                  </div>
+                  <div class="dflt-filter-select__dropdown-row">
+                    <input type="radio" id="ratingType2" name="ratingtypes">
+                    <label for="ratingType2">Наименьшее количество активности</label>
+                  </div>
+                  <div class="dflt-filter-select__dropdown-row">
+                    <input type="radio" id="ratingType3" name="ratingtypes">
+                    <label for="ratingType3">По дате публикаци</label>
+                  </div>
+                  <div class="dflt-filter-select__dropdown-row">
+                    <button type="submit">Применить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="sliders-feed">
+            <div class="post-slider post-slider_iconed"><span class="post-slider__drag-icon"><img src="img/drag-slide-icon.png" alt="#"></span><span class="post-slider__title">Все посты</span>
+              <div class="post-slider__list owl-carousel owl-theme"><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-1.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-2.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-1.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-2.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a></div>
+            </div>
+            <div class="post-slider"><span class="post-slider__title">Топ по постам</span>
+              <div class="post-slider__list owl-carousel owl-theme"><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-1.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-2.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-1.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-2.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a></div>
+            </div>
+            <div class="post-slider"><span class="post-slider__title">Топ по лайкам</span>
+              <div class="post-slider__list owl-carousel owl-theme"><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-1.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-2.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-1.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a><a class="post-slider-list-item" href="#"><img src="img/slider-slide-img-2.png" alt="#"><span class="post-slider-list-item__likes">593</span><span class="post-slider-list-item__comments">94</span></a></div>
+            </div>
+          </div>
+        </main>
+        <aside class="aside aside_solid">
+          <div class="main-sidebar">
+            <div class="main-sidebar__profile-nav"><a class="main-sidebar__profile-nav-title" href="#"><span>Личный кабинет</span><span></span></a>
+              <ul class="nav-menu nav-menu_1">
+                <li class="nav-menu__item"><a class="nav-menu__link" href="#"><img class="nav-menu__link-icon" src="img/nav-menu-icon-0.png" alt="#">Профиль</a></li>
+                <li class="nav-menu__item nav-menu__item_has-dropdown active"><a class="nav-menu__link" href="#"><img class="nav-menu__link-icon" src="img/nav-menu-icon-1.png" alt="#">Аудитория</a>
+                  <ul class="nav-menu__dropdown">
+                    <li><a href="#" data-count="254">Мои подписчики</a></li>
+                    <li><a href="#" data-count="254">Мои подписки</a></li>
+                    <li><a href="#" data-count="254">Не подписаны на меня</a></li>
+                    <li><a href="#" data-count="254">На кого не подписан я</a></li>
+                    <li><a href="#" data-count="254">Отписавшиеся</a></li>
+                  </ul>
+                </li>
+                <li class="nav-menu__item"><a class="nav-menu__link" href="#"><img class="nav-menu__link-icon" src="img/nav-menu-icon-2.png" alt="#">Рейтинг постов</a></li>
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#"><img class="nav-menu__link-icon" src="img/nav-menu-icon-3.png" alt="#">Комментарии</a>
+                  <ul class="nav-menu__dropdown">
+                    <li><a href="#" data-count="254">Комментарии профиля</a></li>
+                    <li><a href="#" data-count="254">Общий список</a></li>
+                  </ul>
+                </li>
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#"><img class="nav-menu__link-icon" src="img/nav-menu-icon-4.png" alt="#">Активность в профиле</a>
+                  <ul class="nav-menu__dropdown">
+                    <li><a href="#" data-count="254">По лайкам</a></li>
+                    <li><a href="#" data-count="254">По комментариям</a></li>
+                    <li><a href="#" data-count="254">Общий список</a></li>
+                    <li><a href="#" data-count="254">Неактивные подписчики</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav-menu nav-menu_2">
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#" data-menu-link="1"><img class="nav-menu__link-icon" src="img/nav-menu-icon-1.png" alt="#">Аудитория</a></li>
+                <li class="nav-menu__item"><a class="nav-menu__link" href="#" data-menu-link="2"><img class="nav-menu__link-icon" src="img/nav-menu-icon-2.png" alt="#">Рейтинг постов</a></li>
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#" data-menu-link="3"><img class="nav-menu__link-icon" src="img/nav-menu-icon-3.png" alt="#">Комментарии</a></li>
+                <li class="nav-menu__item nav-menu__item_has-dropdown"><a class="nav-menu__link" href="#" data-menu-link="4"><img class="nav-menu__link-icon" src="img/nav-menu-icon-4.png" alt="#">Активность<br>в профиле</a></li>
+              </ul>
+            </div>
+            <div class="main-sidebar__notification-settings">
+              <div class="main-sidebar__notification-settings-title"><span>Уведомления</span></div>
+              <div class="dflt-toggle">
+                <input type="checkbox" id="newLikeNotify" name="newlike" checked>
+                <label for="newLikeNotify"><span></span>Новый лайк</label>
+              </div>
+              <div class="dflt-toggle">
+                <input type="checkbox" id="newCommentNotify" name="newcomment" checked>
+                <label for="newCommentNotify"><span></span>Новый комментарий</label>
+              </div>
+              <div class="dflt-toggle">
+                <input type="checkbox" id="unsubscribeNotify" name="unsubscribe">
+                <label for="unsubscribeNotify"><span></span>Пользователь отписался</label>
+              </div>
+            </div>
+          </div>
+          <div class="disable-exploring"><a class="dflt-bttn" href="#">Отключить отслеживание</a></div>
+        </aside>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-xl-4"><span class="footer__copyright">© Все права защищены ООО "Инста Парсер"</span></div>
+          <div class="col-lg-5 col-xl-8">
+            <ul class="footer__nav">
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Поддержка</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="dflt-modal mfp-hide" id="modalLogout">
+      <div class="dflt-modal__desc"><span class="dflt-modal__desc-title">Выйти из профиля</span></div>
+      <button class="dflt-bttn" type="button">Подтвердить действие</button>
+      <button class="dflt-bttn dflt-bttn_ghost dflt-modal-close" type="button">Нет, отменить</button>
+    </div>
+    <script src="js/apps.js"></script>
+    <script>
+      var flag = true;
+      
+      $(window).on('scroll', function () {
+          if ($(window).scrollTop() > Math.floor($('.post-slider_iconed').offset().top) - 300 && flag == true) {
+              $('.post-slider__drag-icon').fadeIn(500);
+              setTimeout(function () {
+                  $('.post-slider__drag-icon').fadeOut(300);
+              }, 4000);
+      
+              flag = false;
+          }
+      });
+    </script>
+  </body>
+</html>

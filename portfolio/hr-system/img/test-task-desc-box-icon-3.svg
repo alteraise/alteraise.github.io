@@ -1,0 +1,29 @@
+<svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<circle cx="57" cy="53" r="35" stroke="#FFE500" stroke-width="2"/>
+<path d="M49.7998 45.8H73.1998M49.7998 54.8H73.1998M49.7998 63.8H73.1998" stroke="#FFE500" stroke-width="2" stroke-linecap="round"/>
+<mask id="path-3-inside-1" fill="white">
+<ellipse cx="42.5998" cy="45.8" rx="1.8" ry="1.8"/>
+</mask>
+<path d="M42.3998 45.8C42.3998 45.6895 42.4893 45.6 42.5998 45.6V49.6C44.6985 49.6 46.3998 47.8987 46.3998 45.8H42.3998ZM42.5998 45.6C42.7103 45.6 42.7998 45.6895 42.7998 45.8H38.7998C38.7998 47.8987 40.5011 49.6 42.5998 49.6V45.6ZM42.7998 45.8C42.7998 45.9105 42.7103 46 42.5998 46V42C40.5011 42 38.7998 43.7013 38.7998 45.8H42.7998ZM42.5998 46C42.4893 46 42.3998 45.9105 42.3998 45.8H46.3998C46.3998 43.7013 44.6985 42 42.5998 42V46Z" fill="#FFE500" mask="url(#path-3-inside-1)"/>
+<mask id="path-5-inside-2" fill="white">
+<ellipse cx="42.5998" cy="54.8" rx="1.8" ry="1.8"/>
+</mask>
+<path d="M42.3998 54.8C42.3998 54.6895 42.4893 54.6 42.5998 54.6V58.6C44.6985 58.6 46.3998 56.8987 46.3998 54.8H42.3998ZM42.5998 54.6C42.7103 54.6 42.7998 54.6895 42.7998 54.8H38.7998C38.7998 56.8987 40.5011 58.6 42.5998 58.6V54.6ZM42.7998 54.8C42.7998 54.9105 42.7103 55 42.5998 55V51C40.5011 51 38.7998 52.7013 38.7998 54.8H42.7998ZM42.5998 55C42.4893 55 42.3998 54.9105 42.3998 54.8H46.3998C46.3998 52.7013 44.6985 51 42.5998 51V55Z" fill="#FFE500" mask="url(#path-5-inside-2)"/>
+<mask id="path-7-inside-3" fill="white">
+<ellipse cx="42.5998" cy="63.8" rx="1.8" ry="1.8"/>
+</mask>
+<path d="M42.3998 63.8C42.3998 63.6895 42.4893 63.6 42.5998 63.6V67.6C44.6985 67.6 46.3998 65.8987 46.3998 63.8H42.3998ZM42.5998 63.6C42.7103 63.6 42.7998 63.6895 42.7998 63.8H38.7998C38.7998 65.8987 40.5011 67.6 42.5998 67.6V63.6ZM42.7998 63.8C42.7998 63.9105 42.7103 64 42.5998 64V60C40.5011 60 38.7998 61.7013 38.7998 63.8H42.7998ZM42.5998 64C42.4893 64 42.3998 63.9105 42.3998 63.8H46.3998C46.3998 61.7013 44.6985 60 42.5998 60V64Z" fill="#FFE500" mask="url(#path-7-inside-3)"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="114" height="114" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.898039 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
