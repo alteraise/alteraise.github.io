@@ -1,0 +1,81 @@
+{
+    ".work-in-progress": {
+        "wip": "Our website is under development"
+    },
+    ".lang-switch": {
+        "lang-bttn": "RU"
+    },
+    ".newtons-animation__link .dflt-bttn > span": {
+        "bttn": "Contact us"
+    },
+    ".newtons-animation__title": {
+        "title-1": "We develop <br>digital solutions",
+        "title-2": "We provide <br>technical support",
+        "title-3": "We'll automate business in a <br>digital environment"
+    },
+    ".contant-us__title": {
+        "title": "Do you have a project?"
+    },
+    ".contant-us__subtitle": {
+        "subtitle": "Fill out the form below and we will contact you to discuss the details of the project. <br>Don't like forms? Write to us by email"
+    },
+    ".contant-us-form__bttns-field-title-1": {
+        "title": "I'm interested in"
+    },
+    ".contant-us-form__bttns-field-title-2": {
+        "title": "Project budget"
+    },
+    ".text-input-1": {
+        "label-1": "Your name"
+    },
+    ".text-input-2": {
+        "label-2": "Your e-mail"
+    },
+    ".text-input-3": {
+        "label-3": "About your project"
+    },
+    ".file-input label": {
+        "name": "Attachment"
+    },
+    ".policy-check label > span": {
+        "text": "I agree with the",
+        "link": "Privacy Policy"
+    },
+    ".contant-us-form__submit > span": {
+        "bttn": "Send"
+    },
+    ".checkbox-bttn-1 label > span": {
+        "name": "Web-development"
+    },
+    ".checkbox-bttn-2 label > span": {
+        "name": "Mobile Apps"
+    },
+    ".checkbox-bttn-3 label > span": {
+        "name": "Technical support"
+    },
+    ".checkbox-bttn-4 label > span": {
+        "name": "SEO"
+    },
+    ".checkbox-bttn-5 label > span": {
+        "name": "PPC"
+    },
+    ".radio-bttn-1 label > span": {
+        "name": "$5 000 - $10 000"
+    },
+    ".radio-bttn-2 label > span": {
+        "name": "$10 000 - $20 000"
+    },
+    ".radio-bttn-3 label > span": {
+        "name": "$20 000 - $50 000"
+    },
+    ".radio-bttn-4 label > span": {
+        "name": "Over $50 000"
+    },
+    ".radio-bttn-5 label > span": {
+        "name": "Other budget"
+    },
+    ".privacy-policy-popup__inner": {
+        "title": "Privacy Policy",
+        "content": "toimi.pro website administration is obliged to maintain your privacy on the Internet. We pay great attention to securing the data you provided to us. Our privacy policy is based on the General Data Protection Regulation (GDPR) of the European Union. The purposes, for which we collect your personal data are: improvement of our service, communication with visitors to this site, presenting the information requested by the user, providing services associated with the website’s specialization, , and for other actions listed below. <br> Personal data storage and processing <br> We collect and process your personal data only with your willing consent. With your permission, we can collect and process the following data: name and surname, date of birth, e-mail address, phone number, attachment. Collection and processing of your personal information is carried out in accordance with the laws of the European Union and the Russian Federation. <br> Data storage, alteration, and removal <br> The user, who has provided toimi.pro with their personal data, has the right for their alteration and removal, as well as the right to recall the agreement to data processing. Time, during which your personal data will be stored is: 24 months. After finishing with the processing of your personal data, the website’s administration will permanently delete it. To access your personal data, you can contact the administration on: artyom.dovgopol@gmail.com. We will be able to pass your data to a third party only with your willing consent. If the data was transferred to a third party, which is not associated with our organization, we cannot perform any changes to that data. <br> Processing of visiting technical data <br> Records of your IP address, time of visit, browser settings, operational system and other technical information is saved in the database when you visit toimi.pro. This data is necessary for the correct display of the website’s content. It is impossible to identify the person of the visitor using this data. <br> Children’s personal information <br> If you are a parent or a legal guardian of an underage child, and you know that the child has provided us with their personal information without your consent, please contact us on: artyom.dovgopol@gmail.com. It is forbidden to enter personal data of underage users without the agreement of parents or lawful guardians. <br> Cookies processing <br> We use cookie files for the correct display of the website’s content and for the convenience of browsing toimi.pro. They are small files, that are stored on your device. They help the website to remember information about you, such as in which language you use the website and which pages have you already opened. This information will be useful in the next visit. Thanks to cookie files, the website’s browsing becomes much more convenient. You can learn more about these files here. You can set up cookies reception and blocking in your browser yourself. Inability to receive cookie files may limit the functionality of the website. <br> Processing of personal data by other services <br> This website uses third-party online services, which perform data collecting, independent from us. Such services include: Google Analytics , Yandex.Metrica. <br> Data collected by these services may be provided to other services within those organizations. They can use the data for advertising personalization of their own advertising network. You can learn about user agreements of those organizations on their websites. You can also refuse their collection of your personal data. For example, Google Analytics Opt-out Browser Add-on can be found here . We do not pass any personal data to other organizations or services, which are not listed in this privacy policy. As an exception, the collected data may be provided on a lawful request of state authorities, that are authorized to request such information. <br> Links to other websites <br> Our website toimi.pro may contain links to other websites, which are not under our control. We are not responsible for the content of these websites. We recommend you familiarize yourself with the privacy policy of every website that you visit, if such policy exists. <br> Changes to the privacy policy <br> From time to time, our website toimi.pro may update our privacy policy. We inform about any changes to the privacy policy, placed on this webpage. We are monitoring any changes in legislation, which is related to personal data in European Union and Russian Federation. If you have entered any of your personal data on our website, we will inform you about the changes in our privacy policy. If your personal data, and more specifically, your contact information was entered incorrectly, we will not be able to contact you. <br> Feedback and final clauses <br> You can contact the administration of toimi.pro regarding any questions related to privacy policy on: artyom.dovgopol@gmail.com, or by filling a contact form specified in a corresponding section of this website. If you do not agree with this privacy policy, you cannot use the services of toimi.pro. In this case you should avoid visiting our website."
+    }
+}
