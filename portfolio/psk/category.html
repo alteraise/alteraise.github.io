@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title></title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.ico">
+</head>
+<body>
+	<div class="page-inner">
+		<header>
+			<div class="container">
+				<div class="d-flex j-between">
+					<a href="#"><img alt="" src="images/logo.svg" class="logo"></a>
+					<div class="header__info">
+						<div class="d-flex j-between">
+							<a href="tel:+79934533254">+7 (993) 453-32-54</a>
+							<a href="mailto:pochta@mail.ru">pochta@mail.ru</a>
+							<span>Пн-Пт с 9:00 до 18:00</span>
+							<span>г. Новосибирск, ул. Петухова, д. 160, стр. 1</span>
+						</div>
+						<form action="" method="POST">
+							<input type="text" name="" placeholder="Поиск">
+							<button type="submit"></button>
+						</form>
+					</div>
+					<div class="header__buttons">
+						<a href="#" class="callback">Заказать звонок</a>
+						<a href="#" class="btn">Получить предложение</a>
+					</div>
+					<div class="header__icons">
+						<a href="#"><img src="images/icon-user.svg" alt=""></a>
+						<a href="#"><img src="images/icon-compare.svg" alt=""></a>
+						<a href="#"><img src="images/icon-cart.svg" alt=""></a>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Сотрудничество</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="inner-wrap">
+			<div class="container">
+				<h1>Каталог продукции</h1>
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>—
+					<li><a href="#">Каталог продукции</a></li>—
+					<li><span>Промышленные полы</span></li>	
+				</ul>
+				<div class="filter__line">
+					<form action="" method="POST">
+						<input type="text" name="search" placeholder="Поиск товаров" autocomplete="off">
+						<button type="submit"></button>
+					</form>
+					<input type="checkbox" name="tags" id="tag1">
+					<label for="tag1">Ремонт бетона</label>
+					<input type="checkbox" name="tags" id="tag2">
+					<label for="tag2">Топпинг</label>
+					<input type="checkbox" name="tags" id="tag3">
+					<label for="tag3">Гидроизоляция</label>
+					<input type="checkbox" name="tags" id="tag4">
+					<label for="tag4">Защита бетона</label>
+					<input type="checkbox" name="tags" id="tag5">
+					<label for="tag5">Антикоррозионная защита</label>
+					<input type="checkbox" name="tags" id="tag6">
+					<label for="tag6">Промышленные полы</label>
+					<input type="checkbox" name="tags" id="tag7">
+					<label for="tag7">Уход</label>
+				</div>
+				<div class="d-flex j-between">
+					<aside>
+						<form action="" method="POST">
+							<div class="filter__block">
+								<span class="filter__name">Сортировка</span>
+								<div class="filter__body">
+									<input type="radio" name="sort" id="sort1">
+									<label for="sort1">Сначала недорогие</label>
+									<input type="radio" name="sort" id="sort2">
+									<label for="sort2">По убыванию цены</label>
+									<input type="radio" name="sort" id="sort3">
+									<label for="sort3">По популярности</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Тип</span>
+								<div class="filter__body">
+									<input type="checkbox" name="tip" id="tip1">
+									<label for="tip1">Иньекции</label>
+									<input type="checkbox" name="tip" id="tip2">
+									<label for="tip2">Наливной</label>
+									<input type="checkbox" name="tip" id="tip3">
+									<label for="tip3">Тиксотропный</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Бренды</span>
+								<div class="filter__body">
+									<input type="checkbox" name="brand" id="brand1">
+									<label for="brand1">MasterEmaco</label>
+									<input type="checkbox" name="brand" id="brand2">
+									<label for="brand2">ЕвроБетон</label>
+									<input type="checkbox" name="brand" id="brand3">
+									<label for="brand3">ТТК Стройсиб</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Температура нанесения, С</span>
+								<div class="filter__body">
+									<input type="checkbox" name="temp" id="temp1">
+									<label for="temp1">+50</label>
+									<input type="checkbox" name="temp" id="temp2">
+									<label for="temp2">+35</label>
+									<input type="checkbox" name="temp" id="temp3">
+									<label for="temp3">+30</label>
+									<input type="checkbox" name="temp" id="temp4">
+									<label for="temp4">+25</label>
+									<input type="checkbox" name="temp" id="temp5">
+									<label for="temp5">+25</label>
+									<input type="checkbox" name="temp" id="temp6">
+									<label for="temp6">+20</label>
+									<input type="checkbox" name="temp" id="temp7">
+									<label for="temp7">+10</label>
+									<input type="checkbox" name="temp" id="temp8">
+									<label for="temp8">+5</label>
+									<input type="checkbox" name="temp" id="temp9">
+									<label for="temp9">0</label>
+									<input type="checkbox" name="temp" id="temp10">
+									<label for="temp10">-10</label>
+									<input type="checkbox" name="temp" id="temp11">
+									<label for="temp11">-20</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Толщина укладки, мм</span>
+								<div class="filter__body">
+									<input type="checkbox" name="tolsh" id="tolsh1">
+									<label for="tolsh1">20-100</label>
+									<input type="checkbox" name="tolsh" id="tolsh2">
+									<label for="tolsh2">до 10</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Прочность на сжатие, МПа</span>
+								<div class="filter__body">
+									<input type="checkbox" name="proch" id="proch1">
+									<label for="proch1">30</label>
+									<input type="checkbox" name="proch" id="proch2">
+									<label for="proch2">600</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Толщина нанесения</span>
+								<div class="filter__body">
+									<input type="checkbox" name="nanes" id="nanes1">
+									<label for="nanes1">0,5</label>
+									<input type="checkbox" name="nanes" id="nanes2">
+									<label for="nanes2">100</label>
+									<input type="checkbox" name="nanes" id="nanes3">
+									<label for="nanes3">10</label>
+									<input type="checkbox" name="nanes" id="nanes4">
+									<label for="nanes4">130</label>
+									<input type="checkbox" name="nanes" id="nanes5">
+									<label for="nanes5">200+</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Последующая окраска</span>
+								<div class="filter__body">
+									<input type="checkbox" name="okras" id="okras1">
+									<label for="okras1">Да</label>
+									<input type="checkbox" name="okras" id="okras2">
+									<label for="okras2">Нет</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Содержание фибры</span>
+								<div class="filter__body">
+									<input type="checkbox" name="fibra" id="fibra1">
+									<label for="fibra1">Нет</label>
+									<input type="checkbox" name="fibra" id="fibra2">
+									<label for="fibra2">Полимерная</label>
+									<input type="checkbox" name="fibra" id="fibra3">
+									<label for="fibra3">Полимерная и металлическая</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Влажность основания</span>
+								<div class="filter__body">
+									<input type="checkbox" name="vlazh" id="vlazh1">
+									<label for="vlazh1">Влажное</label>
+									<input type="checkbox" name="vlazh" id="vlazh2">
+									<label for="vlazh2">Мокрое</label>
+									<input type="checkbox" name="vlazh" id="vlazh3">
+									<label for="vlazh3">Сухое</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Назначение</span>
+								<div class="filter__body">
+									<input type="checkbox" name="nazn" id="nazn1">
+									<label for="nazn1">Ремонт при поверхностных и средних разрушениях</label>
+									<input type="checkbox" name="nazn" id="nazn2">
+									<label for="nazn2">Ремонт при поверхностных разрушениях</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Крупность заполнителя</span>
+								<div class="filter__body">
+									<input type="checkbox" name="zapoln" id="zapoln1">
+									<label for="zapoln1">0,1</label>
+									<input type="checkbox" name="zapoln" id="zapoln2">
+									<label for="zapoln2">0,315</label>
+									<input type="checkbox" name="zapoln" id="zapoln3">
+									<label for="zapoln3">0,63</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Водонепроницаемость</span>
+								<div class="filter__body">
+									<input type="checkbox" name="vodonepr" id="vodonepr1">
+									<label for="vodonepr1">>W 10</label>
+									<input type="checkbox" name="vodonepr" id="vodonepr2">
+									<label for="vodonepr2">>W 16</label>
+									<input type="checkbox" name="vodonepr" id="vodonepr3">
+									<label for="vodonepr3">>W 18</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Марка морозостойкости</span>
+								<div class="filter__body">
+									<input type="checkbox" name="moroz" id="moroz1">
+									<label for="moroz1">F1 1000</label>
+									<input type="checkbox" name="moroz" id="moroz2">
+									<label for="moroz2">F1 600</label>
+									<input type="checkbox" name="moroz" id="moroz3">
+									<label for="moroz3">F2 200</label>
+									<input type="checkbox" name="moroz" id="moroz4">
+									<label for="moroz4">F3 3000</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Допустимость на сжатие через 28 суток, МПа</span>
+								<div class="filter__body">
+									<input type="checkbox" name="dopyst" id="dopyst1">
+									<label for="dopyst1">25</label>
+									<input type="checkbox" name="dopyst" id="dopyst2">
+									<label for="dopyst2">30</label>
+									<input type="checkbox" name="dopyst" id="dopyst3">
+									<label for="dopyst3">40</label>
+									<input type="checkbox" name="dopyst" id="dopyst4">
+									<label for="dopyst4">45</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Скорость набора прочности</span>
+								<div class="filter__body">
+									<input type="checkbox" name="nabor" id="nabor1">
+									<label for="nabor1">Для работ в сжатые сроки</label>
+									<input type="checkbox" name="nabor" id="nabor2">
+									<label for="nabor2">Не предназначен для работ в сжатые сроки</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Ремонт дефектов</span>
+								<div class="filter__body">
+									<input type="checkbox" name="defect" id="defect1">
+									<label for="defect1">Глубоких</label>
+									<input type="checkbox" name="defect" id="defect2">
+									<label for="defect2">Поверхностных</label>
+									<input type="checkbox" name="defect" id="defect3">
+									<label for="defect3">Средних</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Адгезия с бетоном через 28 суток, МПа</span>
+								<div class="filter__body">
+									<input type="checkbox" name="adg" id="adg1">
+									<label for="adg1">0,8</label>
+									<input type="checkbox" name="adg" id="adg2">
+									<label for="adg2">1,5</label>
+									<input type="checkbox" name="adg" id="adg3">
+									<label for="adg3">1,8</label>
+									<input type="checkbox" name="adg" id="adg4">
+									<label for="adg4">2,5</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Прочность при изгибе через 28 суток</span>
+								<div class="filter__body">
+									<input type="checkbox" name="prochn" id="prochn1">
+									<label for="prochn1">12</label>
+									<input type="checkbox" name="prochn" id="prochn2">
+									<label for="prochn2">15</label>
+									<input type="checkbox" name="prochn" id="prochn3">
+									<label for="prochn3">16</label>
+									<input type="checkbox" name="prochn" id="prochn4">
+									<label for="prochn4">8</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Модуль упругости</span>
+								<div class="filter__body">
+									<input type="checkbox" name="ypryg" id="ypryg1">
+									<label for="ypryg1">20</label>
+									<input type="checkbox" name="ypryg" id="ypryg2">
+									<label for="ypryg2">30</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Защита арматуры при коррозии</span>
+								<div class="filter__body">
+									<input type="checkbox" name="arm" id="arm">
+									<label for="arm">Да</label>
+								</div>
+							</div>
+
+							<div class="filter__block">
+								<span class="filter__name">Допустимая динамическая нагрузка</span>
+								<div class="filter__body">
+									<input type="checkbox" name="nagr" id="nagr">
+									<label for="nagr">Средняя</label>
+								</div>
+							</div>
+
+							<div class="d-flex j-between">
+								<button type="submit">Применить</button>
+								<button type="reset">Сброс</button>
+							</div>
+						</form>
+					</aside>
+					<div class="content-wrap">
+						<div class="product__list">
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Быстротвердеющая наливная смесь для ремонта при температуре -10С</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Быстротвердеющая наливная смесь для ремонта при температуре -10С</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Быстротвердеющая наливная смесь для ремонта при температуре -10С</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Быстротвердеющая наливная смесь для ремонта при температуре -10С</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+							<div class="product__item">
+								<img alt="" src="images/product.jpg">
+								<div class="product__body">
+									<p class="cat">Ремонт бетона</p>
+									<p class="name">MasterEmaco S 550 FR</p>
+									<p class="desc">Наливная смесь с хром-никелевой фиброй</p>
+								</div>
+								<div class="product__foot">
+									<a href="#" class="detail">Подробнее</a>
+									<a href="#" class="comp"></a>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex j-between a-center pagiantion">
+							<button type="button">Показать ещё</button>
+							<ul>
+								<li><a href="#" class="prev"></a></li>
+								<li><span>1</span></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#" class="next"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="filter__line filter__bottom">
+					<form action="" method="POST">
+						<input type="text" name="search" placeholder="Поиск товаров" autocomplete="off">
+						<button type="submit"></button>
+					</form>
+					<input type="checkbox" name="tags" id="tag8">
+					<label for="tag8">Ремонт бетона</label>
+					<input type="checkbox" name="tags" id="tag9">
+					<label for="tag9">Топпинг</label>
+					<input type="checkbox" name="tags" id="tag10">
+					<label for="tag10">Гидроизоляция</label>
+					<input type="checkbox" name="tags" id="tag11">
+					<label for="tag11">Защита бетона</label>
+					<input type="checkbox" name="tags" id="tag12">
+					<label for="tag12">Антикоррозионная защита</label>
+					<input type="checkbox" name="tags" id="tag13">
+					<label for="tag13">Промышленные полы</label>
+					<input type="checkbox" name="tags" id="tag14">
+					<label for="tag14">Уход</label>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="d-flex j-between">
+					<div>
+						<a href="#"><img alt="" src="images/logo.svg"></a>
+						<p>г. Новосибирск, ул. Петухова, д. 160, стр. 1</p>
+					</div>
+					<div class="footer__menu">
+						<ul>
+							<li><a href="#">Продукция</a></li>
+							<li><a href="#">Сотрудничество</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Услуги</a></li>
+						</ul>
+					</div>
+					<div class="footer__contact">
+						<a href="#" class="btn">Заказать звонок</a>
+						<div class="d-flex j-between">
+							<p>Пн-Пт с 9:00 до 18:00</p>
+							<p><a href="tel:+79934533254">+7 (993) 453-32-54</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="bottom">
+					<ul>
+						<li>2023 все права защищены</li>
+						<li><a href="#">Разработка сайта: LC Studio</a></li>
+						<li><a href="#">Пользовательское соглашение</a></li>
+						<li><a href="#">Политика конфиденциальности</a></li>
+						<li><a href="mailto:pochta@mail.ru">pochta@mail.ru</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>	
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>	
