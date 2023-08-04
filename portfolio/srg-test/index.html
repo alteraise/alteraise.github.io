@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+		<style>
+			.bg-light {
+				background-color: #eaeaea !important;
+			}
+		</style>
     <title>SRG Bootstrap Test Task</title>
   </head>
   <body class="d-flex flex-column h-100">
@@ -56,9 +60,6 @@
 									<li><a class="dropdown-item" href="#">Подпункт #3</a></li>
 								</ul>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Не активный пункт</a>
-							</li>
 						</ul>
 						<form class="d-flex">
 							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -89,18 +90,20 @@
 		<footer class="footer mt-auto d-flex flex-wrap justify-content-between align-items-center py-3 bg-light">
 			<div class="container">
 				<div class="row">
-					<p class="col-md-4 mb-0 text-muted d-flex align-items-center">© 2023 SRG Test Task</p>
+					<p class="col-lg-5 col-md-4 col-sm-12 mb-md-0 text-muted d-flex align-items-center justify-content-md-start justify-content-center mb-md-0 mb-4">© 2023 SRG Test Task</p>
 
-			    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" googl="true">
+			    <a href="/" class="col-lg-2 col-md-2 col-sm-12 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" googl="true">
 			      <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
 			    </a>
 
-			    <ul class="nav col-md-4 justify-content-end">
-			      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Главная</a></li>
-			      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Пункт #2</a></li>
-			      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Пункт #3</a></li>
-			      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Пункт #4</a></li>
-			    </ul>
+					<div class="col-lg-5 col-md-6 col-sm-12 justify-md-content-end justify-content-center">
+						<ul class="nav justify-md-content-end justify-content-center">
+				      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Главная</a></li>
+				      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Пункт #2</a></li>
+				      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Пункт #3</a></li>
+				      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Пункт #4</a></li>
+				    </ul>
+					</div>
 				</div>
 			</div>
 		</footer>
