@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.7.0.0-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="1156.27pt" height="506.611pt" viewBox="-0.375 -506.249 1156.27 506.611">
+ <defs>
+	</defs>
+ <g id="Page background" transform="scale(1 -1)"/>
+ <g id="MouseOff" transform="scale(1 -1)">
+  <g id="Group" stroke-linejoin="round" stroke-linecap="round" stroke="#590d56" stroke-width="0.75" fill="#000000">
+   <path d="M 0,377.168 C 500.622,166.231 513.635,752.538 1155.52,377.168" fill="none"/>
+   <path d="M 0,195.816 C 500.622,83.22 513.635,396.186 1155.52,195.816" fill="none"/>
+   <path d="M 0,29.433 C 500.622,-33.992 513.635,142.301 1155.52,29.433" fill="none"/>
+   <path d="M 0,262.706 C 500.622,302.25 513.635,192.338 1155.52,262.706" fill="none"/>
+   <path d="M 0,88.43 C 500.622,233.337 513.635,-169.438 1155.52,88.43" fill="none"/>
+  </g>
+ </g>
+</svg>
