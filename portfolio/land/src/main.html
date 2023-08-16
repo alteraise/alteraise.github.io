@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+@include('./components/head.tpl', {
+  pagetitle: 'Главная'
+})
+<body>
+<div class="app main_page">
+  @include('./components/header.tpl')
+  <main class="content">
+    @include('./components/blocks/block1.tpl', {
+      block: 'main_s1'
+    })
+    @include('./components/blocks/block2.tpl', {
+      block: 'main_s2'
+    })
+    @include('./components/blocks/block2.tpl', {
+      block: 'main_s3'
+    })
+    @include('./components/blocks/block2.tpl', {
+      block: 'main_s4'
+    })
+    @include('./components/blocks/block2.tpl', {
+      block: 'main_s5'
+    })
+    <div class="white_bg">
+      @include('./components/blocks/block3.tpl', {
+        block: 'main_s6'
+      })
+      @include('./components/blocks/block4.tpl', {
+        block: 'main_s7'
+      })
+    </div>
+    @include('./components/blocks/block5.tpl', {
+      block: 'main_s8'
+    })
+    <div class="white_bg">
+      @include('./components/blocks/block2.tpl', {
+        block: 'main_s9'
+      })
+      @include('./components/blocks/block2.tpl', {
+        block: 'main_s10'
+      })
+      @include('./components/blocks/block2.tpl', {
+        block: 'main_s11'
+      })
+    </div>
+    @include('./components/blocks/block2.tpl', {
+      block: 'main_s12'
+    })
+    <div class="white_bg">
+      @include('./components/blocks/block3.tpl', {
+        block: 'main_s13'
+      })
+    </div>
+    @include('./components/blocks/block6.tpl')
+    <div class="white_bg">
+      @include('./components/blocks/block7.tpl')
+    </div>
+    @include('./components/blocks/block8.tpl')
+    <div class="white_bg">
+      @include('./components/blocks/block9.tpl')
+      @include('./components/blocks/block3.tpl', {
+        block: 'main_s18'
+      })
+    </div>
+    @include('./components/blocks/block10.tpl')
+    <div class="white_bg">
+      @include('./components/blocks/block11.tpl', {
+        block: 'main_s20'
+      })
+    </div>
+    @include('./components/blocks/block11.tpl', {
+      block: 'main_s21'
+    }) 
+    <div class="white_bg">
+      @include('./components/blocks/block2.tpl', {
+        block: 'main_s22'
+      })
+      @include('./components/blocks/block3.tpl', {
+        block: 'main_s23'
+      })
+    </div>
+    @include('./components/blocks/block12.tpl')
+  </main>
+  @include('./components/footer.tpl')
+</div>
+@include('./components/scripts.tpl')
+</body>
+</html>
