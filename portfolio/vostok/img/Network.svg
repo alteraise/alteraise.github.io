@@ -1,0 +1,27 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M80 80L128.5 17" stroke="#1D1D1B" stroke-width="2">
+                                    <animate attributeName="d" values="M80 80L128.5 17;M80 80L45.5 16.5;M80 80L128.5 17" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></path>
+<path d="M80 80L136 89" stroke="#1D1D1B" stroke-width="2">
+                                    <animate attributeName="d" values="M80 80L136 89;M80 80L138.5 131;M80 80L136 89" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></path>
+<path d="M80 80L124 144.5" stroke="#1D1D1B" stroke-width="2">
+                                    <animate attributeName="d" values="M80 80L124 144.5;M80 80L40.5 138.5;M80 80L124 144.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></path>
+<path d="M80 80L40 138.5" stroke="#1D1D1B" stroke-width="2">
+                                    <animate attributeName="d" values="M80 80L40 138.5;M80 80L22.5 68.5;M80 80L40 138.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></path>
+<path d="M80 80L24.5 36.5" stroke="#1D1D1B" stroke-width="2">
+                                    <animate attributeName="d" values="M80 80L24.5 36.5;M80 80L138.5 51.5;M80 80L24.5 36.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></path>
+<ellipse cx="80" cy="80" rx="23" ry="23" fill="#1D1D1B"/>
+<ellipse cx="128" cy="18" rx="18" ry="18" fill="#1D1D1B">
+                                    <animate attributeName="cx" values="128;46;128" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></ellipse>
+<ellipse cx="135.5" cy="88.5" rx="14.5" ry="14.5" fill="#1D1D1B">
+                                    <animate attributeName="cx" values="135.5;139.5;135.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/>
+                                    <animate attributeName="cy" values="88.5;130.5;88.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></ellipse>
+<ellipse cx="124" cy="144" rx="16" ry="16" fill="#1D1D1B">
+                                    <animate attributeName="cx" values="124;41;124" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/>
+                                    <animate attributeName="cy" values="144;138;144" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></ellipse>
+<ellipse cx="40.5" cy="138.5" rx="19.5" ry="19.5" fill="#1D1D1B">
+                                    <animate attributeName="cx" values="40.5;21.5;40.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/>
+                                    <animate attributeName="cy" values="138.5;67.5;138.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></ellipse>
+<ellipse cx="24.5" cy="36.5" rx="14.5" ry="14.5" fill="#1D1D1B">
+                                    <animate attributeName="cx" values="24.5;138.5;24.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/>
+                                    <animate attributeName="cy" values="36.5;50.5;36.5" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1"/></ellipse>
+</svg>

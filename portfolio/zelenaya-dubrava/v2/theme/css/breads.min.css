@@ -1,2 +1,0 @@
-.breads{padding:22px 0 0}.breads ul{display:flex;align-items:center}.breads ul li{display:flex;align-items:center;font-size:14px}.breads ul li:last-child:after{display:none}.breads ul li:after{display:block;max-width:4px;min-width:4px;height:4px;margin:0 12px;border-radius:50%;background:var(--color-text-hover);content:""}.breads ul li a{color:var(--color-text-gray)}.breads ul li span{color:var(--color-text-hover)}
-/*# sourceMappingURL=breads.min.css.map */

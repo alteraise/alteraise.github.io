@@ -1,0 +1,22 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="80" cy="80" rx="16" ry="16" fill="#843DCC">
+                                    <animate attributeName="cx" values="80;40;40;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="cy" values="80;120;40;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="fill" values="#843DCC;#843DCC;#2A71FF;#843DCC" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animateTransform attributeName="transform" type="rotate" values="0 40 120;0 40 120;90 40 40;90 80 80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/></ellipse>
+<ellipse cx="80" cy="80" rx="16" ry="16" fill="#843DCC">
+                                    <animate attributeName="cx" values="80;120;40;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="cy" values="80;120;120;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="fill" values="#843DCC;#2A71FF;#2A71FF;#843DCC" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animateTransform attributeName="transform" type="rotate" values="0 120 120;0 120 120;90 40 120;90 80 80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/></ellipse>
+<ellipse cx="80" cy="80" rx="16" ry="16" fill="#843DCC">
+                                    <animate attributeName="cx" values="80;120;120;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="cy" values="80;40;120;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="fill" values="#843DCC;#843DCC;#2A71FF;#843DCC" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animateTransform attributeName="transform" type="rotate" values="0 120 40;0 120 40;90 120 120;90 80 80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/></ellipse>
+<ellipse cx="80" cy="80" rx="16" ry="16" fill="#843DCC">
+                                    <animate attributeName="cx" values="80;40;120;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="cy" values="80;40;40;80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animate attributeName="fill" values="#843DCC;#2A71FF;#2A71FF;#843DCC" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/>
+                                    <animateTransform attributeName="transform" type="rotate" values="0 40 40;0 40 40;90 120 40;90 80 80" begin="0s" dur="3s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.333;0.667;1"/></ellipse>
+</svg>

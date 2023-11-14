@@ -1,1 +1,0 @@
-{"version":3,"sources":["blocks/block21.min.css"],"names":[],"mappings":"AAAA,SAAS,QAAA,KAAa,sBAAA,cAAqC,IAAA,KAAS,iCAAiC,QAAA,KAAA,EAAA,EAAiB,YAAA","file":"block21.min.css","sourcesContent":[".block21{display:grid;grid-template-columns:repeat(2, 1fr);gap:40px}.block21 .item:first-child .desc{padding:30px 0 0;font-weight:300}"]}
