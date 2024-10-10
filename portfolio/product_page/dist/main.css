@@ -369,55 +369,59 @@ body {
   color: #5e5e5e;
 }
 .reviews__pagination {
-  position: static;
-  height: 15px;
-  display: flex;
-  border-radius: 7px;
-  background-color: #dddddd;
+  display: none;
 }
 @media (max-width: 576px) {
   .reviews__pagination {
+    position: static;
+    display: flex;
     height: 8px;
     justify-content: center;
     border-radius: 0%;
     background-color: transparent;
   }
 }
-.reviews__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 12px;
-}
 @media (max-width: 576px) {
   .reviews__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 3px;
   }
-}
-.reviews__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:first-child {
-  margin-left: 0;
-}
-.reviews__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:last-child {
-  margin-right: 0;
-}
-.reviews__pagination .swiper-pagination-bullet {
-  height: 100%;
-  flex-grow: 1;
-  border-radius: 7px;
-  background-color: transparent;
-  transition: background-color 0.3s, width 0.3s;
+  .reviews__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:first-child {
+    margin-left: 0;
+  }
+  .reviews__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:last-child {
+    margin-right: 0;
+  }
 }
 @media (max-width: 576px) {
   .reviews__pagination .swiper-pagination-bullet {
+    height: 100%;
+    border-radius: 7px;
     flex-grow: 0;
     opacity: 1;
     background-color: rgba(28, 28, 28, 0.2);
+    transition: width 0.3s;
   }
-}
-.reviews__pagination .swiper-pagination-bullet-active {
-  background-color: #a8a8a8;
 }
 @media (max-width: 576px) {
   .reviews__pagination .swiper-pagination-bullet-active {
-    background-color: rgba(28, 28, 28, 0.2);
     width: 16px;
+  }
+}
+.reviews__scrollbar {
+  margin: 0 auto;
+  transform: scaleX(1.02);
+  background-color: #dddddd;
+}
+.reviews__scrollbar.swiper-scrollbar.swiper-scrollbar-horizontal {
+  position: static;
+  height: 15px;
+}
+.reviews__scrollbar .swiper-scrollbar-drag {
+  background-color: #a8a8a8;
+}
+@media (max-width: 576px) {
+  .reviews__scrollbar {
+    display: none;
   }
 }
 .reviews__link {

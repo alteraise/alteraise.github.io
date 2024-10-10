@@ -7,6 +7,10 @@ const reviewsSlider = new Swiper(".reviews__swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    draggable: true,
+  },
 
   breakpoints: {
     1201: {
