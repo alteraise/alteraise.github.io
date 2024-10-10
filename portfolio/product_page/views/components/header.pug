@@ -1,0 +1,33 @@
+header.header
+  .container.my-container
+    .row.justify-content-between.align-items-center
+      .col-auto.header__menu
+        button.header__btn
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g clip-path="url(#clip0_2_281)">
+              <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="#737373"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_2_281">
+                <rect width="24" height="24" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+      .col-auto
+        a.header__logo(href="#")
+          img(src="images/logo.svg", alt="Логотип Квестикс")
+      nav.col-auto.row.header__nav
+        a.col-auto.px-3.header__link(href="#")
+          img(src="images/tel.svg", alt="#")
+          span Контакты
+        a.col-auto.px-3.header__link(href="#")
+          img(src="images/blog.svg", alt="#")
+          span Блог
+        a.col-auto.px-3.header__link(href="#")
+          img(src="images/user.svg", alt="#")
+          span Заказы
+      .col-auto.header__user
+        a(href="#")
+          img(src="images/user.svg", alt="#")
+
+
